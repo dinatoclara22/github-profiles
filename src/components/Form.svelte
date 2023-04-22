@@ -5,7 +5,7 @@
 	import montaUsuario from "../utils/montaUsuario";
 	import Botao from "./Botao.svelte";
 
-	let valorInput = "";
+	let valorInput = "dinatoclara22";
 	const dispatch = createEventDispatcher<{
 		aoAlterarUsuario: IUsuario | null;
 	}>();
@@ -48,7 +48,7 @@
 	<div class="botao-container">
 		<Botao>
 			Buscar
-			<img src="/assets/lupa.svg" alt="ícone de lupa" />
+			<img class="lupa" src="/assets/lupa.svg" alt="ícone de lupa" />
 		</Botao>
 	</div>
 </form>
@@ -60,6 +60,7 @@
 		font-size: 1rem;
 		border-radius: 8px;
 		border: 1px solid #2e80fa;
+		color: #fff;
 		box-shadow: 0px 17px 52px rgba(222, 231, 247, 0.4);
 		outline: 0;
 	}
@@ -73,6 +74,10 @@
 		color: #6e8cba;
 	}
 
+	.lupa {
+		background-color: #2e80fa;
+	}
+	
 	.erro {
 		position: absolute;
 		bottom: -25px;

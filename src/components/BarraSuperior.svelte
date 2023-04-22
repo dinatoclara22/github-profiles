@@ -6,7 +6,7 @@
 
 <style>
 	.barra-superior {
-		background: rgba(255, 255, 255, 0.5);
+		background: #334155;
 		padding: 10px;
 		border-radius: 8px 8px 0 0;
 	}
