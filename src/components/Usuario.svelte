@@ -65,14 +65,16 @@
 	}
 	.usuario {
 		padding: 28px 0;
-		background: rgba(255, 255, 255, 0.5);
+		background: #334155;
 		box-shadow: -12px 37px 45px rgba(133, 127, 201, 0.18);
 		border-radius: 0px 0px 13px 13px;
 		display: flex;
 		justify-content: center;
+		align-items: center;
 	}
 	.foto-container {
 		margin-right: 81px;
+		background-color: #334155;
 	}
 	.foto-usuario {
 		width: 12.75rem;
@@ -83,27 +85,39 @@
 	}
 	.detalhes-usuario {
 		margin-right: 55px;
+		margin-bottom: 4em;
+		background-color: #334155;
 	}
+
 	.detalhes-usuario > .info {
 		font-weight: 600;
 		font-size: 20px;
 		line-height: 31px;
-		color: #395278;
+		color: #94a3b8;
+		background-color: #334155;
 	}
 	.detalhes-usuario > .info > span {
 		color: #6781a8;
 		font-weight: normal;
+		background-color: #334155;
 	}
 	.repositorios > .titulo {
 		font-size: 20px;
 		line-height: 31px;
 		font-weight: 600;
-		color: #395278;
+		color: #94a3b8;
+		background-color: #334155;
 	}
 	.repositorio {
 		font-size: 20px;
 		line-height: 31px;
 		color: #6781a8;
 		transition: color 0.2s;
+		background-color: #334155;
+	}
+
+	ul > li {
+		width: 100%;
+		background-color: #334155;
 	}
 </style>
